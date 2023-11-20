@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +16,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::controller(AuthController::class)->group(function () {
+    Route::post('/login',   'login')->name('user.login');
+    Route::post('/logout',  'logout');
+});
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+// routes forda UserController
+Route::controller(UserController::class)->group(function () {
+    Route::get('/user',             'index');
+    Route::get('/user/{id}',        'show');
+    Route::post('user',             'store')->name('user.store');
+    Route::put('/user/{id}',        'update')->name('user.update');
+    Route::put('/user/email/{id}',  'email')->name('user.email');
+    Route::put('/user/password/{id}', 'password')->name('user.password');
+    Route::delete('/user/{id}',     'destroy');
 });
