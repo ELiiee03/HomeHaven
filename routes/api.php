@@ -16,21 +16,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::controller(AuthController::class)->group(function () {
-    Route::post('/login',   'login')->name('user.login');
-    Route::post('/logout',  'logout');
-});
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Public APIs
+Route::post('/login', [AuthController::class, 'login'])->name('user.login');;
+// forda register ni sya nga api
+Route::post('user', [UserController::class, 'store'])->name('user.store');
 
-// routes forda UserController
-Route::controller(UserController::class)->group(function () {
-    Route::get('/user',             'index');
-    Route::get('/user/{id}',        'show');
-    Route::post('user',             'store')->name('user.store');
-    Route::put('/user/{id}',        'update')->name('user.update');
-    Route::put('/user/email/{id}',  'email')->name('user.email');
-    Route::put('/user/password/{id}', 'password')->name('user.password');
-    Route::delete('/user/{id}',     'destroy');
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
+
+// Private APIs
+Route::middleware(['auth:sanctum'])->group(function () {
+    // logout
+    Route::post('/logout', [AuthController::class, 'logout']);
+    // users route
+    Route::controller(UserController::class)->group(function () {
+        Route::get('/user',                 'index');
+        Route::get('/user/{id}',            'show');
+        Route::put('/user/{id}',            'update')->name('user.update');
+        Route::put('/user/email/{id}',      'email')->name('user.email');
+        Route::put('/user/password/{id}',   'password')->name('user.password');
+        Route::delete('/user/{id}',         'destroy');
+    });
+
 });
