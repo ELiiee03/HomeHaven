@@ -7,6 +7,7 @@
                     <h4>Contact Us</h4>
                     <ul class="contact-info">
                         <li>
+<<<<<<< HEAD
                             <i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>Butuan
                         </li>
                         <li>
@@ -14,12 +15,25 @@
                         </li>
                         <li>
                             <i class="fa fa-phone"></i><a href="tel:+55-417-634-7071">+639463508438</a>
+=======
+                            <i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>20/F Green Road, Dhanmondi, Dhaka
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i><a href="mailto:sales@hotelempire.com">info@themevessel.com</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i><a href="tel:+55-417-634-7071">+0477 85X6 552</a>
+>>>>>>> source/main
                         </li>
                         <li>
                             <i class="fa fa-fax"></i>+0487 85X6 224
                         </li>
                         <li>
+<<<<<<< HEAD
                             <i class="fa fa-skype"></i><a href="mailto:info@green.com">infoHomeHAven.com</a>
+=======
+                            <i class="fa fa-skype"></i><a href="mailto:info@green.com">info@green.com</a>
+>>>>>>> source/main
                         </li>
                     </ul>
                 </div>
@@ -65,7 +79,11 @@
                             <h5>
                                 <a href="properties-details.html">Beautiful Single Home</a>
                             </h5>
+<<<<<<< HEAD
                             <p>Feb 27, 2023 | $1045,000</p>
+=======
+                            <p>Feb 27, 2020 | $1045,000</p>
+>>>>>>> source/main
                         </div>
                     </div>
                     <div class="media mb-4">
@@ -76,7 +94,11 @@
                             <h5>
                                 <a href="properties-details.html">Sweet Family Home</a>
                             </h5>
+<<<<<<< HEAD
                             <p>Mar 14, 2023 | $944,000</p>
+=======
+                            <p>Mar 14, 2020 | $944,000</p>
+>>>>>>> source/main
                         </div>
                     </div>
                     <div class="media">
@@ -87,7 +109,11 @@
                             <h5>
                                 <a href="properties-details.html">Real Luxury Villa</a>
                             </h5>
+<<<<<<< HEAD
                             <p>Apr 14, 2023 | $1420,000</p>
+=======
+                            <p>Apr 14, 2020 | $1420,000</p>
+>>>>>>> source/main
                         </div>
                     </div>
                 </div>
@@ -96,7 +122,11 @@
                 <div class="footer-item clearfix">
                     <h4>Subscribe</h4>
                     <div class="Subscribe-box">
+<<<<<<< HEAD
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolorum minus perferendis enim pariatur? Sunt tenetur ullam inventore, maxime natus voluptatibus odit quo explicabo iste animi, praesentium, eaque dolore deleniti..</p>
+=======
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+>>>>>>> source/main
                         <form action="#" method="GET">
                             <p>
                                 <input type="text" class="form-contact" name="email" placeholder="Enter Address">
@@ -116,7 +146,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12">
+<<<<<<< HEAD
                     <p class="copy">© 2023 <a href="#">HomeHaven.</a> Trademarks and brands are the property of their respective owners.</p>
+=======
+                    <p class="copy">© 2018 <a href="#">Theme Vessel.</a> Trademarks and brands are the property of their respective owners.</p>
+>>>>>>> source/main
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <ul class="social-list clearfix">
@@ -136,7 +170,11 @@
 <div id="full-page-search">
     <button type="button" class="close">×</button>
     <form action="#" class="search">
+<<<<<<< HEAD
         <input type="search" value="" placeholder="type keyword(s) here"/>
+=======
+        <input type="search" value="" placeholder="type keyword(s) here" />
+>>>>>>> source/main
         <button type="button" class="btn btn-sm btn-color">Search</button>
     </form>
 </div>
@@ -163,7 +201,11 @@
                             <div id="modalCarousel" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
+<<<<<<< HEAD
                                         <iframe class="modalIframe" src="https://www.youtube.com/embed/5e0LxrLSzok"  allowfullscreen></iframe>
+=======
+                                        <iframe class="modalIframe" src="https://www.youtube.com/embed/5e0LxrLSzok" allowfullscreen></iframe>
+>>>>>>> source/main
                                     </div>
                                     <div class="carousel-item">
                                         <img src="http://placehold.it/400x267" alt="Test ALT">
@@ -179,7 +221,12 @@
                                     <i class="fa fa-angle-right"></i>
                                 </a>
                             </div>
+<<<<<<< HEAD
                             <div class="description"><h3>Description</h3>
+=======
+                            <div class="description">
+                                <h3>Description</h3>
+>>>>>>> source/main
                                 <p>
                                     Curabitur odio nibh, luctus non pulvinar a, ultricies ac diam. Donec neque
                                     massa, viverra interdum eros ut, imperdiet pellentesque mauris. Proin sit amet scelerisque
@@ -246,7 +293,11 @@
                     <li class="menu-item"><a href="properties-grid-leftside.html">Properties List</a></li>
                     <li class="menu-item"><a href="properties-details.html">Property Detail</a></li>
                     <li class="menu-item"><a href="blog-single-sidebar-right.html">Blog</a></li>
+<<<<<<< HEAD
                     <li class="menu-item"><a href="about.html">About  US</a></li>
+=======
+                    <li class="menu-item"><a href="about.html">About US</a></li>
+>>>>>>> source/main
                     <li class="menu-item"><a href="contact-3.html">Contact US</a></li>
                 </ul>
             </aside>

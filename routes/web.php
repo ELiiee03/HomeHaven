@@ -2,8 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+<<<<<<< HEAD
 use App\Http\Controllers\HomeController;
 
+=======
+>>>>>>> source/main
 
 /*
 |--------------------------------------------------------------------------
@@ -16,13 +19,18 @@ use App\Http\Controllers\HomeController;
 |
 */
 
+
 Route::get('/', function () {
     return view('front.site');
 });
 
 Auth::routes();
 
+<<<<<<< HEAD
 //Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', [HomeController::class, 'index']);
 
+=======
+Route::get('/home', 'HomeController@index')->name('home');
+>>>>>>> source/main

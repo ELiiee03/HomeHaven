@@ -4,12 +4,18 @@
         <div class="row">
             <div class="col-12">
                 <nav class="navbar navbar-expand-lg navbar-light rounded">
+<<<<<<< HEAD
                     <a class="navbar-brand logo">
                         <img src="{{ asset('assets/front/img/logos/8.png') }}" alt="logo" style="max-width: 250px; height: 250px;">
                         <!-- Adjust the max-width value as needed to control the logo size -->
                     </a>
                     <!-- Other navbar elements here... -->
 
+=======
+                    <a class="navbar-brand logo" href="index.html">
+                        <img src="{{asset('assets/front/img/logos/black-logo.png')}}" alt="logo">
+                    </a>
+>>>>>>> source/main
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="fa fa-bars"></span>
                     </button>
@@ -36,8 +42,13 @@
                             @endauth
 
                             <li class="nav-item sb2">
+<<<<<<< HEAD
                                 <a href="submit-property.html" class="submit">
                                     Book Now
+=======
+                                <a href="submit-property.html" class="submit-btn">
+                                    Submit Property
+>>>>>>> source/main
                                 </a>
                             </li>
                         </ul>

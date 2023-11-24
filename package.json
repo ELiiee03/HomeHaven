@@ -9,10 +9,14 @@
         "@popperjs/core": "^2.11.6",
         "axios": "^1.1.2",
         "bootstrap": "^5.2.3",
+<<<<<<< HEAD
         "laravel-mix": "^6.0.49",
         "laravel-vite-plugin": "^0.8.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+=======
+        "laravel-vite-plugin": "^0.8.0",
+>>>>>>> source/main
         "sass": "^1.56.1",
         "vite": "^4.0.0"
     },

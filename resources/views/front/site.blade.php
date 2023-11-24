@@ -163,7 +163,11 @@
                             </h3>
                             <div class="location">
                                 <a href="properties-details.html">
+<<<<<<< HEAD
                                     <i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>123 Kathal St. Butuan City,
+=======
+                                    <i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>123 Kathal St. Tampa City,
+>>>>>>> source/main
                                 </a>
                             </div>
                         </div>
@@ -200,7 +204,11 @@
                             </h3>
                             <div class="location">
                                 <a href="properties-details.html">
+<<<<<<< HEAD
                                     <i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>123 Kathal St. Butuan City,
+=======
+                                    <i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>123 Kathal St. Tampa City,
+>>>>>>> source/main
                                 </a>
                             </div>
                         </div>
@@ -325,8 +333,177 @@
 </div>
 <!-- Most popular places end -->
 
+<<<<<<< HEAD
 
 
+=======
+<!-- Agent start -->
+<div class="agent content-area">
+    <div class="container">
+        <div class="main-title">
+            <h1>Meet Our Agents</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 wow fadeInLeft delay-04s">
+                <div class="agent-2">
+                    <div class="agent-photo">
+                        <img src="http://placehold.it/255x285" alt="agent-grid-2" class="img-fluid">
+                        <ul class="social-list clearfix">
+                            <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="google-bg"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="agent-details">
+                        <h5><a href="agent-detail.html">John Pitarshon</a></h5>
+                        <p>Creative Director</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 wow fadeInLeft delay-04s">
+                <div class="agent-2">
+                    <div class="agent-photo">
+                        <img src="http://placehold.it/255x285" alt="agent-grid-2" class="img-fluid">
+                        <ul class="social-list clearfix">
+                            <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="google-bg"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="agent-details">
+                        <h5><a href="agent-detail.html">Martin Smith</a></h5>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 wow fadeInRight delay-04s">
+                <div class="agent-2">
+                    <div class="agent-photo">
+                        <img src="http://placehold.it/255x285" alt="agent-grid-2" class="img-fluid">
+                        <ul class="social-list clearfix">
+                            <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="google-bg"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="agent-details">
+                        <h5><a href="agent-detail.html">Brandon Miller</a></h5>
+                        <p>Office Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 wow fadeInRight delay-04s">
+                <div class="agent-2">
+                    <div class="agent-photo">
+                        <img src="http://placehold.it/255x285" alt="agent-grid-2" class="img-fluid">
+                        <ul class="social-list clearfix">
+                            <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="google-bg"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="agent-details">
+                        <h5><a href="#">Karen Paran</a></h5>
+                        <p>Support Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Agent end -->
+
+<!-- Testimonial 4 start -->
+<div class="testimonial-4 tml-4 content-area-7">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main-title">
+                    <h1>Our Testimonial</h1>
+                </div>
+            </div>
+        </div>
+        <div class="slick-slider-area">
+            <div class="row slick-carousel wow fadeInUp delay-04s" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+                <div class="slick-slide-item wow">
+                    <div class="testimonial-inner">
+                        <div class="content-box">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                        <div class="arrow-down"></div>
+                        <div class="media user">
+                            <a href="#">
+                                <img src="http://placehold.it/60x60 " alt="testimonial-4" class="img-fluid">
+                            </a>
+                            <div class="media-body align-self-center">
+                                <h5>Maria Blank</h5>
+                                <h6>Web Developer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide-item wow">
+                    <div class="testimonial-inner">
+                        <div class="content-box">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                        <div class="arrow-down"></div>
+                        <div class="media user">
+                            <a href="#">
+                                <img src="http://placehold.it/60x60 " alt="testimonial-4" class="img-fluid">
+                            </a>
+                            <div class="media-body align-self-center">
+                                <h5>Karen Paran</h5>
+                                <h6>Support Manager</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide-item">
+                    <div class="testimonial-inner">
+                        <div class="content-box">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                        <div class="arrow-down"></div>
+                        <div class="media user">
+                            <a href="#">
+                                <img src="http://placehold.it/60x60 " alt="testimonial-4" class="img-fluid">
+                            </a>
+                            <div class="media-body align-self-center">
+                                <h5>
+                                    John Pitarshon
+                                </h5>
+                                <h6>Creative Director</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide-item">
+                    <div class="testimonial-inner">
+                        <div class="content-box">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        </div>
+                        <div class="arrow-down"></div>
+                        <div class="media user">
+                            <a href="#">
+                                <img src="http://placehold.it/60x60 " alt="testimonial-4" class="img-fluid">
+                            </a>
+                            <div class="media-body align-self-center">
+                                <h5>
+                                    John Pitarshon
+                                </h5>
+                                <h6>Creative Director</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial 4 end -->
+>>>>>>> source/main
 
 <!-- Blog start -->
 <div class="blog content-area-2">

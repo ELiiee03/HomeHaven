@@ -16,5 +16,8 @@ Route::group([
         route::get('/', 'HomeController@home')->name('home');
         route::get('property/{id}', 'PropertyController@propertyById')->name('property.details');
     });
+<<<<<<< HEAD
     
+=======
+>>>>>>> source/main
 });

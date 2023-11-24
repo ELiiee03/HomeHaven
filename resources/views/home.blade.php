@@ -14,7 +14,11 @@
                     </div>
                     @endif
 
+<<<<<<< HEAD
                     {{ __('You are logged in as User!') }}
+=======
+                    {{ __('You are logged in!') }}
+>>>>>>> source/main
                 </div>
             </div>
         </div>
